@@ -2,6 +2,10 @@ body {
     background-color: rgb(219, 227, 211);}
 button{
     background-color: #e4c4c3;
+    border-color: #dbe3d3;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9c632a;
+    font-size: medium;
 }
 .atrasbotoes{
     background-color: hwb(2 76% 11%);
@@ -69,4 +73,7 @@ button{
     background-color: #dbe3d3;
     padding: 08px;
     font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: #e4c4c3;
 }
