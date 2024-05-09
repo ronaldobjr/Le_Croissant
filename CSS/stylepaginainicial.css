@@ -1,4 +1,7 @@
-body {
+
+body, html{
+    margin: 0;
+    padding: 0;
     background-color: rgb(219, 227, 211);}
 button{
     background-color: #e4c4c3;
@@ -100,7 +103,13 @@ h3, h2{
 
 .xxx{
     float: left;
-    padding: 15px;
+    padding: 10px;
     margin-left: 15px;
+}
+.footermapaindex{
+    float: left;
+
+    margin: 10px 100px;
+
 }
  
