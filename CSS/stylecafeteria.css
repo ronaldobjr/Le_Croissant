@@ -1,0 +1,176 @@
+/*Cor e margens do corpo todo*/
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 227, 211);}
+/*características dos botões*/
+button{
+    background-color: #e4c4c3;
+    border-color: #dbe3d3;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9c632a;
+    font-size: medium;
+}
+/*.atrasbotoes{
+    background-color: hwb(2 76% 11%);
+    justify-self: center;
+}*/
+/*Barra dos botões*/
+.top{
+    padding: 25px;
+    text-align: center;
+    background-color: #e4c4c3;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*borda dos spans (botões da barra)*/
+.borda{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e4c4c3;
+    background-color: #e4c4c3;
+    padding: 10px;
+    color: #9c632a;
+    text-decoration: none;
+    font-size:large;
+}
+.borda:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e4c4c3;
+    background-color: #d8b2b0;
+    padding: 10px;
+    color: #9c632a;
+    text-decoration: none;
+    font-size:large;
+}
+/*características da logotipo*/
+.logotipo{
+    float: left;
+    padding: 2px;
+    margin: 5px;
+}
+/*características da barra de navegação*/
+.barra{
+    background-color: #e4c4c3;
+    line-height: normal;
+
+}
+.clear{
+    clear: both;
+}
+/*características dos spans de login e sacola*/
+.loginesacola{
+    padding: 25px;
+    text-align: right;
+    background-color: #dbe3d3;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*bordas spans login e sacola*/
+.bordales{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dbe3d3;
+    background-color: #dbe3d3;
+    padding: 10px;
+    color: #9c632a;
+    text-decoration: none;
+    font-size:large;
+}
+.bordales:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dbe3d3;
+    background-color: #c7cec1;
+    padding: 10px;
+    color: #9c632a;
+    text-decoration: none;
+    font-size:large;
+}
+/*características do login e do footer*/
+footer{
+    background-color: #e4c4c3;
+    align-content: center;
+}
+/*característica fotos do cardápio*/
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*fontes - características*/
+h3, h2{
+    color: #9c632a;
+}
+/*características do mapa localizado no footer*/
+.footermapa{
+    float: left;
+    margin: 10px 120px;
+}
+/*características da marca registrada*/
+.marcaregistrada{
+    text-align: center;
+}
+/*características do link das redes*/
+.instaewhats{
+    float: left;
+    padding: 10px;
+    margin-left: 15px;
+}
+/*características do footer apenas do index*/
+.footermapaindex{
+    float: left;
+    margin: 10px 140px;
+}
+#principal{
+    width: 80%;
+    height: 225px;
+    background-color: #e4c4c3a7;
+    margin: 0 auto;
+    border-radius: 15px;
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 15px;
+    background-color: #c7cec1;
+    padding-left: 5px;
+    border: none;
+    border-radius: 10px;
+}
+input.email{
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+input.senha{
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+input.submit{
+    color: #e4c4c3;
+    background-color: #9c632a;
+    border-radius: 10px;
+    padding: 5px 20px;
+    height: 40px;
+    width: 81%;
+}
+input.submit:hover{
+    color: #e4c4c3;
+    background-color: #5e350b;
+    border-radius: 10px;
+    padding: 5px 20px;
+    height: 40px;
+    width: 81%;
+}
+.fundologin{
+    background-image: url(/Imagens/bannerindex.jpeg);
+    width: 100%;
+}
+.botaocadastro{
+    color: #9c632a;
+}
