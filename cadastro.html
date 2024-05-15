@@ -31,20 +31,47 @@
         </header>
 
         <br><br><br>   
-            <main id="principal">
-                <form method="post" action="#">
+
+        <div id="conteiner">
+            <h2 align="center" style="color: #9c632a;">Formulário de Cadastro</h2>
+            <form method="post" action="#">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
                     <div>
-                        <input class="email" type="text" name="email" id="email" placeholder="Digite seu E-mail" required >
+                        <label for="nome">Nome:</label>
+                        <input class="tamanhocad" type="text" nome="nome" id="nome">
                     </div>
                     <div>
-                        <input  class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha" required >
+                        <label for="email">e-Mail:</label>
+                        <input class="tamanhocad" type="text" nome="email" id="email">
                     </div>
                     <div>
-                        <input class="submit" type="submit" value="Entrar">
+                        <label for="url">URL:</label>
+                        <input class="tamanhocad" type="text" nome="url" id="url">
                     </div>
-                    <p class="botaocadastro">Não tem uma conta?<a href="cadastro.html" style="color: #9c632a;">Cadastre-se agora!</a></p>
-                </form>
-            </main>
+                </fieldset>
+                <fieldset>
+                    <legend>Comentários</legend>
+                    <div>
+                        <label for="meng">Mensagem:</label>
+                        <textarea name="mensagem" id="meng"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Lembrar de mim?</legend>
+                    <div>
+                        <input type="radio" name="lembrar" id="sim" value="sim">
+                        <label class="cont" for="sim"> Sim</label>
+                        <input type="radio" name="lembrar" id="nao" value="sim">
+                        <label class="cont" for="nao"> Não</label>
+                    </div>
+                </fieldset>
+                <div class="bot">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
         <br><br><br>
 
         <footer>
