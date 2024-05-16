@@ -124,7 +124,7 @@ h3, h2{
 /*características do footer apenas do index*/
 .footermapaindex{
     float: left;
-    margin: 10px 140px;
+    margin: 10px 150px;
 }
 /*características do "banner" de login*/
 #principal{
@@ -378,7 +378,7 @@ label{
 }
 /*banner promocional*/
 .banner3{
-    background-image: url(../Imagens/bannerexemplo.jpeg);
+    background-image: url(../Imagens/banner\ promo.png);
 }
 .conteudoparallax{
     background-color: #dbe3d3;
@@ -445,4 +445,12 @@ label{
 }
 .botaocomprar2{
     padding: 30px;
+    position: absolute;
+}
+input.checkbox{
+    width: 15px;
+    height: 15px;
+}
+#termos{
+    color: #9c632a;
 }
