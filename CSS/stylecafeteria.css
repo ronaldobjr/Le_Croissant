@@ -337,9 +337,11 @@ label{
     text-align: justify;
     width: 900px;
 }
+/*produtos dentro da sacola*/
 .tabelasacola{
     padding: 20px;
 }
+/*botao de comprar*/
 .botaocomprar{
     float: right;
     padding: 30px;
@@ -353,3 +355,14 @@ label{
     min-width: 400px;
     max-width: 1300px;
 }
+.staff{
+    border-radius: 5px;
+}
+/*equipe de staff*/
+.staff:hover{
+    transition: 0.5s;
+    box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.61);
+    cursor: pointer;
+} 
