@@ -67,6 +67,9 @@ button{
     height: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+.iconeles{
+    float: left;
+}
 /*bordas spans login e sacola*/
 .bordales{
     border-style: solid;
