@@ -2,7 +2,8 @@
 body, html{
     margin: 0;
     padding: 0;
-    background-color: #dbe3d3;}
+    background-color: #dbe3d3;
+    height: 100%;}
 /*características dos botões*/
 button{
     background-color: #e4c4c3;
@@ -346,7 +347,8 @@ label{
     float: right;
     padding: 30px;
 }
-#container{
+/*espaço da sacola*/
+#containersacola{
     width: 100%;
     height: 550px;
     background-color: #e4c4c3;
@@ -355,14 +357,44 @@ label{
     min-width: 400px;
     max-width: 1300px;
 }
-.staff{
-    border-radius: 5px;
+/*Banners da parallax no index*/
+.banner1, .banner2, .banner3{
+    margin: 0;
+    padding: auto;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
 }
-/*equipe de staff*/
-.staff:hover{
-    transition: 0.5s;
-    box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.61);
-    -webkit-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.61);
-    -moz-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.61);
-    cursor: pointer;
-} 
+/*banner le croissant*/
+.banner1{
+    background-image: url(../Imagens/bannerindex.jpeg);
+}
+/*banner nossos macarons*/
+.banner2{
+    background-image: url(../Imagens/nossosmacarons.jpeg);
+}
+/*banner promocional*/
+.banner3{
+    background-image: url(../Imagens/bannerexemplo.jpeg);
+}
+.conteudoparallax{
+    background-color: #dbe3d3;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 40px 20px 40px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.conteudo2{
+    background-color: #dbe3d3;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 40px 20px 40px;
+    line-height: 1.5em;
+    text-align: center;
+}
