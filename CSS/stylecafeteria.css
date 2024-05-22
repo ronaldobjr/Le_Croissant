@@ -11,6 +11,7 @@ button{
     font-family: 'Times New Roman', Times, serif;
     color: #9c632a;
     font-size: medium;
+    cursor: pointer;
 }
 /*.atrasbotoes{
     background-color: hwb(2 76% 11%);
@@ -34,6 +35,7 @@ button{
     color: #9c632a;
     text-decoration: none;
     font-size:large;
+    cursor: pointer;
 }
 .borda:hover{
     border-style: solid;
@@ -44,6 +46,7 @@ button{
     color: #9c632a;
     text-decoration: none;
     font-size:large;
+    cursor: pointer;
 }
 /*características da logotipo*/
 .logotipo{
@@ -103,7 +106,7 @@ td{
     padding-right: 20px;
 }
 /*fontes - características*/
-h3, h2{
+h3, h2, h1{
     color: #9c632a;
 }
 /*características do mapa localizado no footer*/
@@ -346,6 +349,8 @@ label{
 .botaocomprar{
     float: right;
     padding: 30px;
+    text-decoration: none;
+    color: #9c632a;
 }
 /*espaço da sacola*/
 #containersacola{
@@ -453,4 +458,13 @@ input.checkbox{
 }
 #termos{
     color: #9c632a;
+}
+.baners{
+    margin-top: 30px;
+    margin-left: 255px;
+    margin-bottom: 50px;
+}
+.entreespaço{
+    background-color: #d8b2b0;
+    height: 15px;
 }
